@@ -27,7 +27,7 @@ code {
   background-color: white;
 }
 
-.fila-foco {
+.fila-focos {
   display: flex;
   align-items: center;
   justify-content: space-around;
