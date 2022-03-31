@@ -27,11 +27,34 @@ code {
   background-color: white;
 }
 
+.fila-foco {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.foco-mercurial {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 100px;
+  background-color: white;
+}
+
+.luz-mercurial {
+  width: 80%;
+  height: 50px;
+  background-color: orange;
+}
+
 .techo {
   width: 600px;
   height: 600px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
   background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
