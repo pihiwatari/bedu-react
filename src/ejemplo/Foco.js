@@ -4,7 +4,7 @@ import Luz from "./Luz";
 const Foco = () => {
   return (
     <div className="foco">
-      <Luz></Luz>
+      <Luz color="red"></Luz>
     </div>
   );
 };

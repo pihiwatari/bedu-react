@@ -7,18 +7,13 @@ function App() {
   return (
     <div className="App">
       <div className="techo">
-        <Foco />
         <FocoMercurial />
         <div className="fila-focos">
           <Foco />
           <Foco />
         </div>
         <FocoMercurial />
-        <div className="fila-focos">
-          <Foco />
-          <Foco />
-          <Foco />
-        </div>
+        <FocoMercurial />
       </div>
     </div>
   );

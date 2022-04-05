@@ -4,7 +4,7 @@ import LuzMercurial from "./LuzMercurial";
 const FocoMercurial = () => {
   return (
     <div className="foco-mercurial">
-      <LuzMercurial />
+      <LuzMercurial color="purple" />
     </div>
   );
 };
