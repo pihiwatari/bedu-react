@@ -3,7 +3,7 @@ import React from "react";
 function Heroes({ nombre, identidad, bio, link, imagen }) {
   return (
     <div>
-      <img src={imagen} alt="Super Image" />
+      <img src={imagen} alt={nombre} />
       <h1> {nombre} </h1>
       <h3> {identidad} </h3>
       <p> {bio} </p>
